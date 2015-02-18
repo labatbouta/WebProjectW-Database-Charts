@@ -1,0 +1,16 @@
+// Jade template with html and all associate js files and libraries
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet',  href='http://bootswatch.com/simplex/bootstrap.min.css')
+    meta(charset='utf-8')
+    script(src='//code.jquery.com/jquery-1.11.0.min.js')
+    script(src='//code.jquery.com/jquery-migrate-1.2.1.min.js')
+    script(src='javascripts/myscript.js')
+    script(src='javascripts/lib/AJAX.js')
+    script(src='http://code.highcharts.com/highcharts.js')
+    script(src='http://code.highcharts.com/modules/exporting.js')
+  body
+    block content

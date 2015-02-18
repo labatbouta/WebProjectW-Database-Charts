@@ -1,0 +1,82 @@
+
+
+/* table format*/
+table, th, td {
+  width: 50%;
+}
+
+/* items in table format */
+th, td {
+  padding: 5px;
+}
+/* all div tags will inherit from this style */
+div {
+  float: left;
+  width: 100%;
+}
+
+/* style classes */
+/* these are simply named styles that can be called by any/multiple HTML tags */
+
+/* define the style that will be used by the parent DIV object  for absolute positioning*/
+div#parentdiv {
+  position: relative;
+  padding-bottom: 5%;
+}
+
+div#topdiv {
+  height: 10%;
+  width: 100%;
+  background-color: cornflowerblue;
+
+}
+div#topline {
+  height: 10px;
+  width: 100%;
+  background-color: lightgrey;
+
+}
+img{
+  height: 30px;
+  width:30px;
+}
+
+div#sidebar {
+  width: 20%;
+  height:800px;
+  background-color: aliceblue;
+}
+div#sidebar2 {
+  width: 20%;
+  height:50px;
+  background-color: aliceblue;
+
+}
+div#leftdiv {
+
+  width: 40%;
+  height: 100%;
+
+}
+div#rightdiv {
+
+  width: 40%;
+  height: 40%;
+}
+
+div#bottomdiv{
+  width: 80%;
+  align-content: center;
+}
+
+
+#mainImage{
+  height: 225px;
+  width:300px;
+}
+div#container{
+  min-width: 310px;
+  height: 400px;
+  margin: 0 auto;
+}
+

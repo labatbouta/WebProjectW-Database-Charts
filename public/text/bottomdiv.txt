@@ -1,0 +1,2 @@
+This chart displays all user information about most up-to-date average speeds of local highways in Massachusetts. It displays the average morning and evening speed.
+All data is updated by users like you, using the sidebar.

@@ -1,0 +1,46 @@
+// Jade template main view with all containers
+extends layout
+
+block content
+   div#parentdiv
+      div#topdiv
+         h1 Traffic Dashboard
+      div#topline
+      div#sidebar
+         div#sidebarp
+         br
+         form
+            div.
+               Name (i.e. I-290, I-90 etc.):
+            br
+            input#name( type="text")
+            br
+            div.
+               Morning Speed (MPH):
+            br
+            input#morning( type="text")
+            br
+            div.
+               Evening Speed (MPH):
+            br
+            input#evening( type="text")
+         div#sidebar2
+            button#submit(type="submit", onclick="clickSubmit()") Submit
+      div#leftdiv
+         button#Louisiana(type="button") Louisiana Accidents
+         button#Massachusetts(type="button") Massachusetts Accidents
+         div#container
+         div#paragraph2
+      div#rightdiv
+         img(src="/images/commonWealth.png", id="commonWealth")
+         button#piechart(type="button") All Ages
+         button#piechart2(type="button") Teens
+         div#content
+      div#bottomdiv
+         div#trafficCommute
+         br
+         div#paragraph3
+
+
+
+
